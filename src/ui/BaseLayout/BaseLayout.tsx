@@ -17,7 +17,7 @@ const PageResolver = (routeId: string) => {
 };
 
 const Greetings = () => {
-  const { name, phone } = useContext(UserContext);
+  const { name } = useContext(UserContext);
 
   if (name) {
     return (

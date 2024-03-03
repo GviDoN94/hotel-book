@@ -1,7 +1,6 @@
 import '@/pages/Reservation/styles.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRoomList } from '@/hooks/useRoomList';
-import { getAvailableRooms } from '@/api/reservation';
 import { Room } from '@/pages/Reservation/types';
 import { ReservationForm } from '@/pages/Reservation/ReservationForm';
 import { AvailableRooms } from '@/pages/Reservation//AvailableRooms';

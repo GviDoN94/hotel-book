@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { getAvailableRooms } from '@/api/reservation';
 import { useQuery } from '@tanstack/react-query';
 import { Room } from '@/pages/Reservation/types';
